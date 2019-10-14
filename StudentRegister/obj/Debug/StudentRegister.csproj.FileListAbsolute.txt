@@ -1,0 +1,15 @@
+C:\Users\alexeck\Documents\GitHub\student-registry-AlexEckstein\StudentRegister\StudentRegister\bin\Debug\StudentRegister.exe.config
+C:\Users\alexeck\Documents\GitHub\student-registry-AlexEckstein\StudentRegister\StudentRegister\bin\Debug\StudentRegister.exe
+C:\Users\alexeck\Documents\GitHub\student-registry-AlexEckstein\StudentRegister\StudentRegister\bin\Debug\StudentRegister.pdb
+C:\Users\alexeck\Documents\GitHub\student-registry-AlexEckstein\StudentRegister\StudentRegister\obj\Debug\StudentRegister.csprojAssemblyReference.cache
+C:\Users\alexeck\Documents\GitHub\student-registry-AlexEckstein\StudentRegister\StudentRegister\obj\Debug\MainWindow.g.cs
+C:\Users\alexeck\Documents\GitHub\student-registry-AlexEckstein\StudentRegister\StudentRegister\obj\Debug\App.g.cs
+C:\Users\alexeck\Documents\GitHub\student-registry-AlexEckstein\StudentRegister\StudentRegister\obj\Debug\StudentRegister_MarkupCompile.cache
+C:\Users\alexeck\Documents\GitHub\student-registry-AlexEckstein\StudentRegister\StudentRegister\obj\Debug\StudentRegister_MarkupCompile.lref
+C:\Users\alexeck\Documents\GitHub\student-registry-AlexEckstein\StudentRegister\StudentRegister\obj\Debug\MainWindow.baml
+C:\Users\alexeck\Documents\GitHub\student-registry-AlexEckstein\StudentRegister\StudentRegister\obj\Debug\StudentRegister.g.resources
+C:\Users\alexeck\Documents\GitHub\student-registry-AlexEckstein\StudentRegister\StudentRegister\obj\Debug\StudentRegister.Properties.Resources.resources
+C:\Users\alexeck\Documents\GitHub\student-registry-AlexEckstein\StudentRegister\StudentRegister\obj\Debug\StudentRegister.csproj.GenerateResource.cache
+C:\Users\alexeck\Documents\GitHub\student-registry-AlexEckstein\StudentRegister\StudentRegister\obj\Debug\StudentRegister.csproj.CoreCompileInputs.cache
+C:\Users\alexeck\Documents\GitHub\student-registry-AlexEckstein\StudentRegister\StudentRegister\obj\Debug\StudentRegister.exe
+C:\Users\alexeck\Documents\GitHub\student-registry-AlexEckstein\StudentRegister\StudentRegister\obj\Debug\StudentRegister.pdb

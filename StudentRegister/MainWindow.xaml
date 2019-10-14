@@ -1,0 +1,53 @@
+﻿<Window x:Class="StudentRegister.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:StudentRegister"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+
+    <DockPanel>
+        <ListBox DockPanel.Dock="Right" 
+                 Name="StudentList"
+                 ItemsSource="{Binding}"
+                 IsSynchronizedWithCurrentItem="True"
+                 >
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation ="Horizontal">
+                    <TextBlock MinWidth="100"
+                               Text="{Binding Path=Last}"/>
+                    <TextBlock MinWidth="100"
+                               Text="{Binding Path=First}"/>
+                    <TextBlock MinWidth="100"
+                               Text="{Binding Path=GPA}"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <ContentControl Name="SelectedStudent" Content="{Binding}">
+            <ContentControl.ContentTemplate>
+                <DataTemplate>
+                    <StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Width="100" Text="First Name: "/>
+                            <TextBox Width="200" Text ="{Binding Path=First}"/>
+
+                    
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Width="100" Text="Last Name: "/>
+                            <TextBox Width="200" Text ="{Binding Path=Last}"/>
+                        </StackPanel>
+                    </StackPanel>
+                </DataTemplate>
+            
+            </ContentControl.ContentTemplate>
+        </ContentControl>
+        <Button DockPanel.Dock="Bottom" Click="AddStudent">
+            Add New Student
+        </Button>
+    </DockPanel>
+    
+</Window>
